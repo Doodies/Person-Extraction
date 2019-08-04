@@ -60,11 +60,3 @@ This approach required the bounding box to be detected for each frame and then p
 ## Output
 
 ![output 2](results/output2.png)
-
-## Input
-
-![input 1](results/input1.jpg)
-
-## Output
-
-![output 1](results/output1.png)
