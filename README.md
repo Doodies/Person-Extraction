@@ -21,7 +21,7 @@ Following are the approaches we tried:
 4. Also propose Fast NMS, a drop-in 12 ms faster replacement for standard NMS that only has a marginal performance penalty
 5. The processing speed is very fast for real time data extraction. On Titan Xp GPU, the results are:
 Image Size: 550
-Backbone model:	Resnet50-FPN	
+Backbone model:	Resnet50-FPN
 FPS: 42.5
 
 ### SiaMask: Fast Online Object Tracking and Segmentation
@@ -42,3 +42,29 @@ This approach doesn't give high accuracy and the processing was also very slow.
 The accuracy was not good in this approach.
 ### GrabCut Algorithm: Interactive Foreground Extraction
 This approach required the bounding box to be detected for each frame and then process for foreground extraction, hence this was having low fps.
+
+
+# Results:
+## Input
+
+![input 1](results/input1.jpg)
+
+## Output
+
+![output 1](results/output1.png)
+
+## Input
+
+![input 2](results/input2.png)
+
+## Output
+
+![output 2](results/output2.png)
+
+## Input
+
+![input 1](results/input1.jpg)
+
+## Output
+
+![output 1](results/output1.png)
